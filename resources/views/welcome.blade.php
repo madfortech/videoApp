@@ -14,7 +14,7 @@
                 <div class="col-md-7">
                     <div class="d-flex justify-content-center border border-1 p-2" style="margin-top:2em;margin-bottom:2em;">
                         <div>
-                            <h1>welcome info vieo</h1>
+                            <h1>welcome info video</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                 tempor incididunt ut labore et dolore magna aliqua.<br>

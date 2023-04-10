@@ -48,6 +48,13 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.spatie.be"
+        }
+    ],
+    
     "minimum-stability": "stable",
     "prefer-stable": true,
     "scripts": {

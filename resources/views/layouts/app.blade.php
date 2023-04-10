@@ -18,8 +18,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/styles.min.css')}}">
 
-  
-    
+    <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+     -->
 
     @livewireStyles
 </head>
@@ -32,8 +32,10 @@
 
     @livewireStyles
     <!-- Scripts -->
+   
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <script src="{{asset('js/script.min.js')}}"></script>
+    <!-- <script src="{{ mix('js/app.js') }}" defer></script> -->
 </body>
 </html>

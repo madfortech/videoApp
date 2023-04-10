@@ -8,18 +8,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <form method="post" target="_blank" enctype="application/x-www-form-urlencoded">
-                            <div class="input-group">
-                              <input class="form-control form-control-sm border-0 rounded-0" type="search" name="search" placeholder="Search user" required="">
-                              <button class="btn btn-primary btn-sm border-0 rounded-0" type="submit">
-                                <i class="fas fa-search"></i>
-                              </button>
-                            </div>
-                        </form>
-                    </li>
-                </ul>
+                
                 <ul class="navbar-nav ms-auto">
                   @auth
                   @if (Route::has('login'))

@@ -8,14 +8,16 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        @vite('resources/css/app.css')
+       
 
         <!-- Scripts -->
-        @vite('resources/js/app.js')
+        <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+
+        <!-- <script src="{{ mix('js/app.js') }}" defer></script> -->
     </body>
 </html>
